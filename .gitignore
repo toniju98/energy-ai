@@ -1,0 +1,45 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables (API keys)
+.env
+.env.local
+
+# Model files and checkpoints
+*.pth
+*.pt
+*.pkl
+*.pickle
+checkpoints/
+dqn_model.pth
+
+# TensorBoard logs
+runs/
+logs/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Test cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/ 
